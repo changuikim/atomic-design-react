@@ -21,7 +21,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      // 커스텀 경로 설정
+      "@components/*": ["./src/components/*"],
+      "components/*": ["./src/components/*"],
       "@data/*": ["./public/data/*"]
     },
     "allowImportingTsExtensions": true // Auto Import를 위한 추가 설정
@@ -33,7 +34,8 @@
     ".next/types/**/*.ts",
     "**/*.js",
     "**/*.jsx",
-    ".next/types/**/*.js"
+    ".next/types/**/*.js",
+    "**/*.cjs"
   ],
   "exclude": ["node_modules"]
 }
