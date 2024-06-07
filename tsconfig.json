@@ -21,7 +21,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      // 커스텀 경로 설정
+      "@components/*": ["./src/components/*"],
       "@data/*": ["./public/data/*"]
     },
     "allowImportingTsExtensions": true // Auto Import를 위한 추가 설정
