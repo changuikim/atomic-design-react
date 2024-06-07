@@ -1,21 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import Count from './Count'
+import Home from '.'
 
 const meta = {
-  title: 'Atoms/Count',
-  component: Count,
+  title: 'Pages/Home',
+  component: Home,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof Count>
+} satisfies Meta<typeof Home>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
-export const Default: Story = {
-  args: {
-    value: 0,
-  },
-}
+export const Default: Story = {}
