@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import AppTitle from '.'
 
 const meta = {
-  title: 'TodoApp/Atoms/AppTitle',
+  title: 'ToDoApp/Atoms/AppTitle',
   component: AppTitle,
   parameters: {
     backgrounds: {

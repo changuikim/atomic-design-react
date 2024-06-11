@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import Label from '.'
+import PageTitle from '.'
 
 const meta = {
-  title: 'TodoApp/Atoms/Label',
-  component: Label,
+  title: 'ToDoApp/Atoms/PageTitle',
+  component: PageTitle,
   tags: ['autodocs'],
-} satisfies Meta<typeof Label>
+} satisfies Meta<typeof PageTitle>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    label: '리액트 공부하기',
+    title: '할 일 목록',
   },
 }

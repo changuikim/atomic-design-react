@@ -1,20 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
-import Input from '.'
+import ToDoItem from '.'
 
 const meta = {
-  title: 'TodoApp/Atoms/Input',
-  component: Input,
+  title: 'ToDoApp/Organisms/ToDoItem',
+  component: ToDoItem,
   tags: ['autodocs'],
-} satisfies Meta<typeof Input>
+} satisfies Meta<typeof ToDoItem>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    value: '리액트 공부하기',
-    onChange: action('onChange'),
+    label: '리액트 공부하기',
+    onDelete: action('onDelete'),
   },
 }

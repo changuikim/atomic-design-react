@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions'
 import Button from '.'
 
 const meta = {
-  title: 'TodoApp/Atoms/Button',
+  title: 'ToDoApp/Atoms/Button',
   component: Button,
   tags: ['autodocs'],
 } satisfies Meta<typeof Button>

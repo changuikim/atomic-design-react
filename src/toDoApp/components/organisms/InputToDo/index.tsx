@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/router'
-import Input from '@/todoApp/components/atoms/Input'
-import Button from '@/todoApp/components/atoms/Button'
+import Input from '@/toDoApp/components/atoms/Input'
+import Button from '@/toDoApp/components/atoms/Button'
 
 const InputToDo: React.FC = () => {
   const [toDo, setToDo] = useState('')
