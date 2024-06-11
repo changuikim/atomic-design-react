@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import Button from 'components/atoms/Button'
-import Count from 'components/atoms/Count'
+import Button from '@/components/counterApp/atoms/Button'
+import Count from '@/components/counterApp/atoms/Count'
 
 const Counter: React.FC = () => {
   const [count, setCount] = useState(0)

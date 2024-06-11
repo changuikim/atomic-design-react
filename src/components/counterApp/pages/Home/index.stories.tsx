@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import Home from '.'
 
 const meta = {
-  title: 'Pages/Home',
+  title: 'CounterApp/Pages/Home',
   component: Home,
   parameters: {
     layout: 'centered',
