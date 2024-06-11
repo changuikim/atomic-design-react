@@ -1,6 +1,6 @@
 'use client'
 
-import CounterApp from '@/components/counterApp/templates/CounterApp'
+import CounterApp from '@/counterApp/components/templates/CounterApp'
 
 const Home = () => <CounterApp />
 

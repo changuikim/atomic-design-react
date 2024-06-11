@@ -1,5 +1,5 @@
-import Title from '@/components/counterApp/atoms/Title'
-import Counter from '@/components/counterApp/organisms/Counter'
+import Title from '@/counterApp/components/atoms/Title'
+import Counter from '@/counterApp/components/organisms/Counter'
 
 const CounterApp: React.FC = () => (
   <div className='flex flex-col items-center justify-center h-screen'>
