@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useContext } from 'react'
 import { ToDoListContext } from '@/toDoApp/contexts/ToDoListContext'
 import ToDoList from '@/toDoApp/components/templates/ToDoList'

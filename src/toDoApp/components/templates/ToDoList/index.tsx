@@ -1,4 +1,6 @@
-import { useRouter } from 'next/router'
+'use client'
+
+import { useRouter } from 'next/navigation'
 
 import React from 'react'
 import PageTitle from '@/toDoApp/components/atoms/PageTitle'
@@ -30,7 +32,7 @@ const ToDoList: React.FC<Props> = ({ toDoList, onDelete }) => {
         </div>
       </div>
       <div className='absolute z-10 bottom-10 right-10'>
-        <Button label='할 일 추가' color='#304FFE' onClick={() => router.push('/add')} />
+        <Button label='할 일 추가' color='#304FFE' onClick={() => router.push('/toDo/add')} />
       </div>
     </div>
   )

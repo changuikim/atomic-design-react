@@ -1,5 +1,7 @@
+'use client'
+
 import React from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import PageTitle from '@/toDoApp/components/atoms/PageTitle'
 import Button from '@/toDoApp/components/atoms/Button'
 import InputToDo from '@/toDoApp/components/organisms/InputToDo'
@@ -14,7 +16,7 @@ const ToDoInput: React.FC = () => {
         <InputToDo />
       </div>
       <div className='absolute z-10 bottom-10 right-10'>
-        <Button label='닫기' onClick={() => router.push('/')} />
+        <Button label='닫기' onClick={() => router.push('/toDo')} />
       </div>
     </div>
   )

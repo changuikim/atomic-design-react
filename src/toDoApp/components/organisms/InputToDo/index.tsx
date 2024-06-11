@@ -1,5 +1,7 @@
+'use client'
+
 import React, { useState, useContext } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import Input from '@/toDoApp/components/atoms/Input'
 import Button from '@/toDoApp/components/atoms/Button'
 import { ToDoListContext } from '@/toDoApp/contexts/ToDoListContext'
@@ -14,7 +16,7 @@ const InputToDo: React.FC = () => {
 
     onAdd(toDo)
     setToDo('')
-    router.push('/')
+    router.push('/toDo')
   }
 
   return (
