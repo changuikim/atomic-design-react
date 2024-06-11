@@ -14,8 +14,8 @@ const ToDoList: React.FC<Props> = ({ toDoList, onDelete }) => {
   const router = useRouter()
 
   return (
-    <div className='flex h-screen flex-col items-center justify-center bg-gray-200'>
-      <div className='flex flex-col items-center justify-center rounded-lg bg-white p-8'>
+    <div className='flex flex-col items-center justify-center h-screen bg-gray-200'>
+      <div className='flex flex-col items-center justify-center p-8 bg-white rounded-lg'>
         <PageTitle title='할 일 목록' />
         <div className='flex flex-col'>
           {toDoList.map(toDo => (
@@ -29,7 +29,7 @@ const ToDoList: React.FC<Props> = ({ toDoList, onDelete }) => {
           ))}
         </div>
       </div>
-      <div className='absolute bottom-10 right-10 z-10'>
+      <div className='absolute z-10 bottom-10 right-10'>
         <Button label='할 일 추가' color='#304FFE' onClick={() => router.push('/add')} />
       </div>
     </div>
