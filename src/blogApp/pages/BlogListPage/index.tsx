@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState, useEffect } from 'react'
 import BlogList from '@/blogApp/components/templates/BlogList'
 import type { Post } from '@/blogApp/components/templates/BlogList'
